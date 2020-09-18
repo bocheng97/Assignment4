@@ -1,4 +1,5 @@
 # Hello, This is Bo Cheng, a begginer in python programmer. Thank you for visiting my github page.
+## You can download my program by "git clone https://github.com/bocheng97/Assignment4"
 ## So, to begin with, this is a python3(compatible to python3) program to help you convert ensembl gene_id to hugo name. 
 ## Usage:ensg2hugo.py [-h] [-f [COLUMNS]] [input]
 ## The input file should have exact same structure with the example.csv file.So if you have a different structure csv file, just convert it to this structure, I think this will be easy. 
