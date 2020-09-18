@@ -26,7 +26,7 @@ dic_list = []
 #file1 = open('/Users/bocheng/PycharmProjects/pythonProject1/qqq.csv', 'r')
 file1 = args.input
 for line in file1:
-    match_obj = re.search(r'"(.*?)","(.*?)","(.*?)",(.*?),(.*),(.*),(.*),', line)
+    match_obj = re.search(r'"(.*?)","(.*?)","(.*?)",(.*?)\,(.*)', line)
     if match_obj.group(2) != 'gene_id': #skip headline of csv files
         match_obj_geneid = re.search(r'(.*)\.(\d+)', match_obj.group(2))
         if match_obj_geneid.group(1) in GRCh3775_dic:
